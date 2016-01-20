@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6405ADEA1C4F64550004EADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405ADE91C4F64550004EADF /* AppDelegate.swift */; };
-		6405ADEC1C4F64550004EADF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405ADEB1C4F64550004EADF /* ViewController.swift */; };
 		6405ADEE1C4F64550004EADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6405ADED1C4F64550004EADF /* Assets.xcassets */; };
 		6405ADF11C4F64550004EADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6405ADEF1C4F64550004EADF /* Main.storyboard */; };
 		6405ADFC1C4F64560004EADF /* TestingUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405ADFB1C4F64560004EADF /* TestingUTests.swift */; };
 		6405AE071C4F64560004EADF /* TestingUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE061C4F64560004EADF /* TestingUUITests.swift */; };
+		6405AE161C4F64BB0004EADF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE141C4F64BB0004EADF /* MainViewController.swift */; };
+		6405AE1A1C4F655A0004EADF /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE181C4F655A0004EADF /* TestingViewController.swift */; };
+		6405AE1B1C4F655A0004EADF /* TestingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6405AE191C4F655A0004EADF /* TestingViewController.xib */; };
+		6405AE1E1C4F656E0004EADF /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE1C1C4F656E0004EADF /* GameOverViewController.swift */; };
+		6405AE1F1C4F656E0004EADF /* GameOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6405AE1D1C4F656E0004EADF /* GameOverViewController.xib */; };
+		6405AE211C4F66E60004EADF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE201C4F66E50004EADF /* AppDelegate.swift */; };
+		6405AE241C4F69BA0004EADF /* SettingWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6405AE221C4F69BA0004EADF /* SettingWindowController.swift */; };
+		6405AE251C4F69BA0004EADF /* SettingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6405AE231C4F69BA0004EADF /* SettingWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +40,6 @@
 
 /* Begin PBXFileReference section */
 		6405ADE61C4F64550004EADF /* TestingU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingU.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6405ADE91C4F64550004EADF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6405ADEB1C4F64550004EADF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6405ADED1C4F64550004EADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6405ADF01C4F64550004EADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6405ADF21C4F64550004EADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 		6405AE021C4F64560004EADF /* TestingUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6405AE061C4F64560004EADF /* TestingUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUUITests.swift; sourceTree = "<group>"; };
 		6405AE081C4F64560004EADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6405AE141C4F64BB0004EADF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6405AE181C4F655A0004EADF /* TestingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		6405AE191C4F655A0004EADF /* TestingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestingViewController.xib; sourceTree = "<group>"; };
+		6405AE1C1C4F656E0004EADF /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		6405AE1D1C4F656E0004EADF /* GameOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameOverViewController.xib; sourceTree = "<group>"; };
+		6405AE201C4F66E50004EADF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6405AE221C4F69BA0004EADF /* SettingWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingWindowController.swift; sourceTree = "<group>"; };
+		6405AE231C4F69BA0004EADF /* SettingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +107,16 @@
 		6405ADE81C4F64550004EADF /* TestingU */ = {
 			isa = PBXGroup;
 			children = (
-				6405ADE91C4F64550004EADF /* AppDelegate.swift */,
-				6405ADEB1C4F64550004EADF /* ViewController.swift */,
-				6405ADED1C4F64550004EADF /* Assets.xcassets */,
+				6405AE201C4F66E50004EADF /* AppDelegate.swift */,
+				6405AE141C4F64BB0004EADF /* MainViewController.swift */,
 				6405ADEF1C4F64550004EADF /* Main.storyboard */,
+				6405AE181C4F655A0004EADF /* TestingViewController.swift */,
+				6405AE191C4F655A0004EADF /* TestingViewController.xib */,
+				6405AE1C1C4F656E0004EADF /* GameOverViewController.swift */,
+				6405AE1D1C4F656E0004EADF /* GameOverViewController.xib */,
+				6405AE221C4F69BA0004EADF /* SettingWindowController.swift */,
+				6405AE231C4F69BA0004EADF /* SettingWindowController.xib */,
+				6405ADED1C4F64550004EADF /* Assets.xcassets */,
 				6405ADF21C4F64550004EADF /* Info.plist */,
 			);
 			path = TestingU;
@@ -226,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6405AE1F1C4F656E0004EADF /* GameOverViewController.xib in Resources */,
 				6405ADEE1C4F64550004EADF /* Assets.xcassets in Resources */,
+				6405AE1B1C4F655A0004EADF /* TestingViewController.xib in Resources */,
+				6405AE251C4F69BA0004EADF /* SettingWindowController.xib in Resources */,
 				6405ADF11C4F64550004EADF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,8 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6405ADEC1C4F64550004EADF /* ViewController.swift in Sources */,
-				6405ADEA1C4F64550004EADF /* AppDelegate.swift in Sources */,
+				6405AE211C4F66E60004EADF /* AppDelegate.swift in Sources */,
+				6405AE241C4F69BA0004EADF /* SettingWindowController.swift in Sources */,
+				6405AE161C4F64BB0004EADF /* MainViewController.swift in Sources */,
+				6405AE1A1C4F655A0004EADF /* TestingViewController.swift in Sources */,
+				6405AE1E1C4F656E0004EADF /* GameOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestingU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.grassinfo.TestingU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -396,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TestingU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
